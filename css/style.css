@@ -55,7 +55,10 @@ main section img {
  
 main section nav p{
     overflow: scroll;
-    height: 400px;
+    height: 350px;
+}
+main section nav div{
+    padding: 50px;
 }
 footer {
   clear: both;
