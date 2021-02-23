@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  padding: 10px 10px;
+  text-align: center;
+  background: #535252;
+  line-height: 90px;
+  height: 90px;
+  width: 1000px;
+}
+
+header ul li {
+    display: inline;
+    margin:auto;
+    padding: 20px;
+  color:black;
+  
+}
+
+header ul li img{
+    float: left;
+    margin-left:  70px; ;
+
+
+}
+
+main img{
+    margin: 25px;
+    
+}
+
+main section img {
+    overflow: auto;
+    float: left;
+    padding: 10px;
+    margin:5.5px
+
+}
+ main section{
+     margin-left: 4px;
+ }
+ 
+ 
+main section nav p{
+    overflow: scroll;
+    height: 400px;
+}
+footer {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  text-transform: capitalize;
+}
